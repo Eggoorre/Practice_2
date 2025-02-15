@@ -29,11 +29,11 @@ answ = float(v * 0.19)
 print("Прибыль:", round(answ, 2), '\n')
 
 #6
-h = int(input("Введите рост: "))
-w = int(input("Введите вес: "))
-h_in_d = h / 2.54
-w_in_p = w * 2.205
-print(round(w_in_p / (h_in_d ** 2), 2), '\n')
+w_in_p = int(input("Введите вес: "))
+h_in_d = int(input("Введите рост: "))
+w_in_k = w_in_p * 0.453592
+h_in_m = h_in_d * 0.0254
+print(round(w_in_k / (h_in_m ** 2), 2), '\n')
 
 #7
 S = 10000
